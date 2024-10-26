@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/assets/language-switch.webp);
+    background-size: 100%; 
+    background-repeat: no-repeat; 
+    font-size: larger;
+   
+}
+.form{
+   padding-left: 20rem;
+   padding-top: 10rem;
+}
+.submit{
+    border: 1px,solid,white;
+    padding: 3px;
+    border-radius: 10px;
+    color: lightcoral;
+}
+input{
+    border: 1px,solid,white;
+    padding: 3px;
+    border-radius: 10px;
+}
