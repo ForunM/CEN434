@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      function factorial(XY) {
+        let result = 1;
+        for (let i = XY; i > 0; i--) {
+          result *= i;
+        }
+        return result;
+      }
+
+      const XY = 13;
+      const result = factorial(XY);
+      console.log("13! (13 factorial) is:", result);
+    </script>
+  </body>
+</html>
